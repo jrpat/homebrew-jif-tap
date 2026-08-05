@@ -3,29 +3,29 @@ class Jif < Formula
   desc "Keyboard-first terminal UI for Jujutsu"
   homepage "https://github.com/jrpat/jif"
   license "MIT"
-  version "0.7.0"
+  version "0.7.1"
 
   depends_on "jj"
 
   on_macos do
     on_arm do
-      url "https://github.com/jrpat/jif/releases/download/v0.7.0/jif-v0.7.0-darwin-arm64.tar.gz"
-      sha256 "d6929780ae44b9991c4d579fa176b25fa33e5f7a3e2c24223c4cdf3ff9edf258"
+      url "https://github.com/jrpat/jif/releases/download/v0.7.1/jif-v0.7.1-darwin-arm64.tar.gz"
+      sha256 "10fdd62e3230b9425b401ba6fb0c32aae6083f348547d0fccf78bcaa9c7b93e1"
     end
     on_intel do
-      url "https://github.com/jrpat/jif/releases/download/v0.7.0/jif-v0.7.0-darwin-x64.tar.gz"
-      sha256 "d0c01606c8ee2cd1bea51e38b0973ef75691db99282c705ea085bc00abfadbeb"
+      url "https://github.com/jrpat/jif/releases/download/v0.7.1/jif-v0.7.1-darwin-x64.tar.gz"
+      sha256 "4c2ea3b7ed68374dfbef49f4603198a62dc2b8fbebe7fe88534872b5defb2d20"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jrpat/jif/releases/download/v0.7.0/jif-v0.7.0-linux-arm64.tar.gz"
-      sha256 "1a0fd38d0d9268a22b4787b7ec906da905dcd8a51b967a943a0355fbfe5f813c"
+      url "https://github.com/jrpat/jif/releases/download/v0.7.1/jif-v0.7.1-linux-arm64.tar.gz"
+      sha256 "b65609055b295db4f95ed96faf9f86d5d828dd3fdceda3745cbef9961b37c477"
     end
     on_intel do
-      url "https://github.com/jrpat/jif/releases/download/v0.7.0/jif-v0.7.0-linux-x64.tar.gz"
-      sha256 "20f38b9d6b964d94d4adbce27e537ed71a2acc91d3953b141f85b2dc1573d789"
+      url "https://github.com/jrpat/jif/releases/download/v0.7.1/jif-v0.7.1-linux-x64.tar.gz"
+      sha256 "52f0c7157411f592135965a614523cb60efa52fd75edc5690e8b8bb438ac7fce"
     end
   end
 
